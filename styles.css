@@ -1,8 +1,69 @@
 * {
+
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 
-
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white
+}
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
 
 
 }
+.navLinks li {
+    display: inline;
+
+}
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.navLinks a:hover {
+    color: rgb(255, 247, 0);
+}
+ button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.Login {
+    background-color: rgb(255, 247, 0);
+    color: rgb(0, 0, 0);
+    
+
+   
+}
+.SignUp {
+background-color: rgb(255, 247, 0);
+    color: rgb(0, 0, 0);
+
+}
+.Login:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.SignUp:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+    
