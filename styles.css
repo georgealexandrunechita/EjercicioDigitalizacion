@@ -1,69 +1,125 @@
-* {
 
+* {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-
-}
-.navbar {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-image: url('https://res.cloudinary.com/dcp7o3atw/image/upload/v1743501894/samples/balloons.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+    color: white;
+    height: 100vh;
+    padding-top: 80px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .hero-text {
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    max-width: 80%; 
+    z-index: 1; 
+  }
+  
+  .hero-text h1 {
+    font-size: 36px; 
+    font-weight: bold;
+    text-transform: uppercase; 
+    color: white; 
+  }
+  
+  .navbar {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
-    background-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-}
-.navbar .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white
-}
-.navLinks {
+    padding: 0px 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+  }
+  
+  .logo img {
+    height: auto;
+    width: 100px;
+    max-width: 400px;
+  }
+  
+  .navLinks {
     list-style: none;
     display: flex;
-    gap: 20px; 
-
-
-}
-.navLinks li {
-    display: inline;
-
-}
-.navLinks a {
+    gap: 30px;
+  }
+  
+  .navLinks a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
-    font-weight: bold;
-
-}
-.navLinks a:hover {
-    color: rgb(255, 247, 0);
-}
- button {
-    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  .navLinks a:hover {
+    color: #ffcc00; 
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 12px 24px;
     border: none;
     cursor: pointer;
     font-size: 16px;
-    border-radius: 15px;
-}
-.Login {
-    background-color: rgb(255, 247, 0);
-    color: rgb(0, 0, 0);
-    
+    font-weight: bold;
+    border-radius: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  
+  .Login,
+  .SignUp {
+    background-color: #ffcc00; 
+    color: #1a1a1a;
+  }
+  
+  .Login:hover,
+  .SignUp:hover {
+    background-color: #ffffff;
+    transform: translateY(-2px);
+  }
+  
 
-   
-}
-.SignUp {
-background-color: rgb(255, 247, 0);
-    color: rgb(0, 0, 0);
-
-}
-.Login:hover {
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-}
-.SignUp:hover {
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-}
-    
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 12px; 
+    z-index: 100;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
