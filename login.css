@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-image: url('https://res.cloudinary.com/dcp7o3atw/image/upload/v1743501894/samples/balloons.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar .logo {
+    width: 120px;
+    height: auto;
+    
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  .navLinks a:hover {
+    color: #fffa00;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  
+  .Login,
+  .SignUp {
+    background-color: #fffa00;
+    color: #1a1a1a;
+  }
+  
+  .Login:hover,
+  .SignUp:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+  }
+  
+  /* Estilos para el formulario de login */
+  .login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    color: #fffa00;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .input-group input:focus {
+    box-shadow: 0 0 10px rgba(255, 250, 0, 0.7);
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+  }
+  
+  .forgot-password a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .forgot-password a:hover {
+    color: #fffa00;
+  }
+  
+  .submit-btn {
+    padding: 12px 24px;
+    border: none;
+    background-color: #fffa00;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+  }
+  
