@@ -1,124 +1,246 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  body {
-    background-image: url('https://res.cloudinary.com/dcp7o3atw/image/upload/v1743501894/samples/balloons.jpg'); /* Imagen de fondo */
-    background-size: cover;
-    background-position: center; 
-    background-attachment: fixed; 
-    color: white;
-    height: 100vh;
-    padding-top: 80px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .hero-text {
-    position: absolute; /* Posiciona el texto encima de la imagen */
-    top: 50%; /* Centra verticalmente */
-    left: 50%; /* Centra horizontalmente */
-    transform: translate(-50%, -50%); /* Ajusta para centrar completamente */
-    text-align: center; /* Alinea el texto al centro */
-    max-width: 80%; /* Limita el ancho del texto */
-    z-index: 1; /* Asegura que el texto esté sobre el fondo */
-  }
-  
-  .hero-text h1 {
-    font-size: 36px; /* Tamaño del texto */
-    font-weight: bold;
-    text-transform: uppercase; /* Transformar a mayúsculas */
-    color: white; /* Color del texto */
-  }
-  
-  .navbar {
-    position: fixed; 
-    top: 0; 
-    left: 0;
-    width: 100%; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 40px;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    z-index: 1000; 
-  }
-  
-  .logo img {
-    height: auto;
-    width: 100px;
-    max-width: 400px;
-  }
-  
-  .navLinks {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-  }
-  
-  .navLinks a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: color 0.3s ease;
-  }
-  
-  .navLinks a:hover {
-    color: #ffcc00; /* Color amarillo cuando se pasa el ratón */
-  }
-  
-  .buttons {
-    display: flex;
-    gap: 20px;
-  }
-  
-  button {
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 25px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
-  }
-  
-  .Login,
-  .SignUp {
-    background-color: #ffcc00; /* Color amarillo */
-    color: #1a1a1a;
-  }
-  
-  .Login:hover,
-  .SignUp:hover {
-    background-color: #ffffff;
-    transform: translateY(-2px);
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-  .footer {
-    text-align: center;
-    padding: 10px 0;
-    color: rgb(255, 255, 255);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    font-size: 12px; 
-    z-index: 100;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
+body {
+  position: relative;
+  padding-top: 70px;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+  overflow-x: hidden;
+  z-index: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://res.cloudinary.com/dcp7o3atw/image/upload/v1743501894/samples/balloons.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(6px) brightness(0.8);
+  z-index: -1;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.navbar .logo img {
+  width: 100px;
+  height: auto;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: #fffa00;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.Login,
+.SignUp {
+  background-color: #fffa00;
+  color: #1a1a1a;
+}
+
+.Login:hover,
+.SignUp:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+}
+
+.hero-text {
+  position: relative;
+  top: 40px;
+  text-align: center;
+  max-width: 800px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+}
+
+.servicios-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  max-width: 900px;
+  margin-bottom: 60px;
+  color: white;
+  text-align: center;
+}
+
+.servicios-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #ffcc00;
+}
+
+.servicios-form {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.servicio {
+  background: rgba(255, 204, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: #1a1a1a;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.servicio img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.servicio h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.servicio p {
+  font-size: 16px;
+}
+
+.contacto-container {
+  background-color: #ffcc00;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  max-width: 500px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.contacto-container h2 {
+  margin-bottom: 15px;
+  font-size: 2em;
+}
+
+.contacto-container a {
+  color: #1a1a1a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contacto-container a:hover {
+  text-decoration: underline;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  resize: vertical;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
+}
+
+button[type="submit"] {
+  background-color: #1a1a1a;
+  color: #ffcc00;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #333333;
+  transform: translateY(-2px);
+}
