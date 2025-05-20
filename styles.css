@@ -25,11 +25,11 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https://res.cloudinary.com/dcp7o3atw/image/upload/v1743501894/samples/balloons.jpg');
+  background-image: url('https://res.cloudinary.com/dcp7o3atw/image/upload/v1747732624/globos_background_rbp4xw.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: blur(6px) brightness(0.8);
+  
   z-index: -1;
 }
 
@@ -41,7 +41,7 @@ body::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px;
+  padding: 0px 40px;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -70,7 +70,7 @@ body::before {
 }
 
 .navLinks a:hover {
-  color: #fffa00;
+  color:#ffcc00cc;
 }
 
 .buttons {
@@ -92,13 +92,13 @@ button {
 
 .Login,
 .SignUp {
-  background-color: #fffa00;
+  background-color: #ffffff;
   color: #1a1a1a;
 }
 
 .Login:hover,
 .SignUp:hover {
-  background-color: #e0e0e0;
+  background-color:  rgba(255, 204, 0, 0.8);
   transform: translateY(-2px);
 }
 
@@ -108,11 +108,13 @@ button {
   text-align: center;
   max-width: 800px;
   margin-bottom: 50px;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
   color: white;
   z-index: 1;
+  margin-bottom: 20%;
+  margin-top: 15%;
 }
 
 .servicios-container {
@@ -130,7 +132,7 @@ button {
 .servicios-container h2 {
   font-size: 2.5em;
   margin-bottom: 30px;
-  color: #ffcc00;
+  color: #ffcc00cc;
 }
 
 .servicios-form {
@@ -141,7 +143,7 @@ button {
 }
 
 .servicio {
-  background: rgba(255, 204, 0, 0.8);
+  background: #ffcc00cc;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -154,8 +156,8 @@ button {
 }
 
 .servicio img {
-  width: 150px;
-  height: 100px;
+  width: 200px;
+  height: 150px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 15px;
@@ -171,7 +173,7 @@ button {
 }
 
 .contacto-container {
-  background-color: #ffcc00;
+  background-color:#ffcc00cc;
   padding: 40px 30px;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -222,12 +224,12 @@ button {
 
 .input-group input:focus,
 .input-group textarea:focus {
-  box-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
+  box-shadow: 0 0 10px #ffcc00cc(255, 204, 0, 0.8);
 }
 
 button[type="submit"] {
   background-color: #1a1a1a;
-  color: #ffcc00;
+  color: #ffcc00cc(48, 100%, 50%, 0.751);
   padding: 12px 24px;
   font-size: 16px;
   font-weight: bold;
@@ -243,4 +245,7 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #333333;
   transform: translateY(-2px);
+}
+.footer {
+  margin-bottom: 15px;
 }
