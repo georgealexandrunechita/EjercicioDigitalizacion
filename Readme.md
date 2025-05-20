@@ -1,45 +1,47 @@
 Happy Travel - Landing Page
-Página web tipo landing page diseñada para promocionar servicios turísticos. Presenta información  sobre los paquetes turísticos, asesoría personalizada y reserva de vuelos y hoteles.
+![Happy Travel Banner](https://res.cloudinary.com/dcp7o3atw/image/upload/v1744108765/Black_Simple_Travel_Logo_zdtrzu.png)
 
-Descripción
-Esta landing page está creada con HTML y CSS 
+Landing page website designed to promote tourism services. It presents information about travel packages, personalized assistance, and booking of flights and hotels.
 
-Cuenta con:
+Description
+This landing page is built with HTML and CSS.
+![Happy Travel Home]https://res.cloudinary.com/dcp7o3atw/image/upload/v1747740118/Captura_pantalla_seccion_principal_ztq7n9.png
+It includes:
 
-Navegación fija con enlaces que hacen scroll hacia secciones específicas de la página.
+Fixed navigation with links that scroll to specific sections of the page.
 
-Sección principal.
+Main section.
 
-Sección de servicios que incluye imagen, título y descripción para cada paquete.
+Services section with an image, title, and description for each package.
 
-Formulario de contacto sencillo y funcional.
+Simple and functional contact form.
 
-Diseño responsivo y estilizado con colores y fondo de imagen.
+Responsive and stylish design with colors and background image.
 
-Estructura de archivos
-/ (raíz del proyecto)
+File Structure
+/ (project root)
 │
-├── index.html          # Archivo principal HTML
-├── styles.css          # Estilos CSS para la página
-└── README.md           # Este archivo
+├── index.html          # Main HTML file  
+├── styles.css          # CSS styles for the page  
+└── README.md           # This file  
 
-Cómo usar
-Clonar o descargar el repositorio.
+How to Use
+Clone or download the repository.
 
-Abrir index.html en cualquier navegador moderno.
+Open index.html in any modern browser.
 
-Navegar por la página y utilizar el formulario de contacto si se desea.
+Browse the page and use the contact form if desired.
 
-Personalización
+Customization
+Change the images in the services section by modifying the URLs in the HTML.
 
-Cambia las imágenes en la sección de servicios modificando las URLs en el HTML.
+Edit the texts in the HTML to adapt the content to your needs.
 
-Modifica los textos en el HTML para adaptar el contenido a tus necesidades.
+Adjust colors, fonts, and styles in styles.css.
 
-Ajusta colores, fuentes y estilos en styles.css.
-
-Tecnologías utilizadas
+Technologies Used
 HTML5
+
 CSS3
 
-Autor: Alex Nechita
+Author: Alex Nechita
