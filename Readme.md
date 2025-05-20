@@ -18,10 +18,10 @@ Diseño responsivo y estilizado con colores y fondo de imagen.
 
 Estructura de archivos
 / (raíz del proyecto)
-│
-├── index.html          # Archivo principal HTML
-├── styles.css          # Estilos CSS para la página
-└── README.md           # Este archivo
+
+index.html          # Archivo principal HTML
+styles.css          # Estilos CSS para la página
+README.md           # Este archivo
 
 Cómo usar
 Clonar o descargar el repositorio.
