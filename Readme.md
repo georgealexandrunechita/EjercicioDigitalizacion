@@ -3,39 +3,40 @@ Happy Travel - Landing Page
 
 Landing page website designed to promote tourism services. It presents information about travel packages, personalized assistance, and booking of flights and hotels.
 
-Description
-This landing page is built with HTML and CSS.
-![Happy Travel Home]https://res.cloudinary.com/dcp7o3atw/image/upload/v1747740118/Captura_pantalla_seccion_principal_ztq7n9.png
-It includes:
+Descripción
+Esta landing page está creada con HTML y CSS 
 
-Fixed navigation with links that scroll to specific sections of the page.
+Cuenta con:
 
-Main section.
+Navegación fija con enlaces que hacen scroll hacia secciones específicas de la página.
 
-Services section with an image, title, and description for each package.
+Sección principal.
 
-Simple and functional contact form.
+Sección de servicios que incluye imagen, título y descripción para cada paquete.
 
-Responsive and stylish design with colors and background image.
+Formulario de contacto sencillo y funcional.
 
-File Structure
-/ (project root)
+Diseño responsivo y estilizado con colores y fondo de imagen.
+
+Estructura de archivos
+/ (raíz del proyecto)
 │
-├── index.html          # Main HTML file  
-├── styles.css          # CSS styles for the page  
-└── README.md           # This file  
+├── index.html          # Archivo principal HTML
+├── styles.css          # Estilos CSS para la página
+└── README.md           # Este archivo
 
-How to Use
-Clone or download the repository.
+Cómo usar
+Clonar o descargar el repositorio.
 
-Open index.html in any modern browser.
+Abrir index.html en cualquier navegador moderno.
 
-Browse the page and use the contact form if desired.
+Navegar por la página y utilizar el formulario de contacto si se desea.
 
-Customization
-Change the images in the services section by modifying the URLs in the HTML.
+Personalización
 
-Edit the texts in the HTML to adapt the content to your needs.
+Cambia las imágenes en la sección de servicios modificando las URLs en el HTML.
+
+Modifica los textos en el HTML para adaptar el contenido a tus necesidades.
 
 Adjust colors, fonts, and styles in styles.css.
 
@@ -44,4 +45,4 @@ HTML5
 
 CSS3
 
-Author: Alex Nechita
+Autor: Alex Nechita
