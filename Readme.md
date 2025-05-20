@@ -1,50 +1,65 @@
-Happy Travel - Landing Page
+# Happy Travel - Landing Page
+
 ![Happy Travel Banner](https://res.cloudinary.com/dcp7o3atw/image/upload/v1744108765/Black_Simple_Travel_Logo_zdtrzu.png)
 
 Landing page website designed to promote tourism services. It presents information about travel packages, personalized assistance, and booking of flights and hotels.
 
-Descripción
-Esta landing page está creada con HTML y CSS 
+---
 
-Cuenta con:
-![Inicio] https://res.cloudinary.com/dcp7o3atw/image/upload/v1747740118/Captura_pantalla_seccion_principal_ztq7n9.png
-Navegación fija con enlaces que hacen scroll hacia secciones específicas de la página.
+## Description
 
-Sección principal.
+This landing page is created with HTML and CSS.
 
-Sección de servicios que incluye imagen, título y descripción para cada paquete.
-![Servicios] (https://res.cloudinary.com/dcp7o3atw/image/upload/v1747740122/Captura_-_servicios_y2wqnn.png)
+It includes:  
+![Home](https://res.cloudinary.com/dcp7o3atw/image/upload/v1747740118/Captura_pantalla_seccion_principal_ztq7n9.png)  
+Fixed navigation with links that scroll to specific sections of the page.
 
-Formulario de contacto sencillo y funcional.
-![Formulario] (https://res.cloudinary.com/dcp7o3atw/image/upload/v1747740111/Captura_formulario_eqpj3x.png)
+Main section.
 
-Diseño responsivo y estilizado con colores y fondo de imagen.
+Services section including image, title, and description for each package.  
+![Services](https://res.cloudinary.com/dcp7o3atw/image/upload/v1747740122/Captura_-_servicios_y2wqnn.png)
 
-Estructura de archivos
-/ (raíz del proyecto)
+Simple and functional contact form.  
+![Contact Form](https://res.cloudinary.com/dcp7o3atw/image/upload/v1747740111/Captura_formulario_eqpj3x.png)
+
+Responsive and styled design with colors and background image.
+
+---
+
+## Project Structure
+
+/ (project root)
 │
-├── index.html          # Archivo principal HTML
-├── styles.css          # Estilos CSS para la página
-└── README.md           # Este archivo
+├── index.html # Main HTML file
+├── styles.css # CSS styles for the page
+└── README.md # This file
 
-Cómo usar
-Clonar o descargar el repositorio.
 
-Abrir index.html en cualquier navegador moderno.
+---
 
-Navegar por la página y utilizar el formulario de contacto si se desea.
+## How to Use
 
-Personalización
+- Clone or download the repository.
+- Open `index.html` in any modern browser.
+- Navigate the page and use the contact form if desired.
 
-Cambia las imágenes en la sección de servicios modificando las URLs en el HTML.
+---
 
-Modifica los textos en el HTML para adaptar el contenido a tus necesidades.
+## Customization
 
-Adjust colors, fonts, and styles in styles.css.
+- Change the images in the services section by modifying the URLs in the HTML.
+- Modify the texts in the HTML to adapt the content to your needs.
+- Adjust colors, fonts, and styles in `styles.css`.
 
-Technologies Used
-HTML5
+---
 
-CSS3
+## Technologies Used
 
-Autor: Alex Nechita
+- HTML5
+- CSS3
+
+---
+
+## Author
+
+Alex Nechita
